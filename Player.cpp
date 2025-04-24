@@ -21,7 +21,6 @@ void Player::inputStats() {
     std::cout << "Constitution (1-10): ";
     std::cin >> Constitution;
 
-    // Optional clamping/validation
     if (Intelligence < 1 || Intelligence > 10) Intelligence = 1;
     if (Wisdom < 1 || Wisdom > 10) Wisdom = 1;
     if (Charisma < 1 || Charisma > 10) Charisma = 1;
