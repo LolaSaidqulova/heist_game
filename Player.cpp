@@ -1,6 +1,5 @@
 #include "Player.h"
 
-// Default constructor (initializes to zero or you can leave uninitialized if you want)
 Player::Player()
     : Intelligence(0), Charisma(0), Dexterity(0), Wisdom(0), Constitution(0) {}
 
@@ -23,11 +22,11 @@ void Player::inputStats() {
     std::cin >> Constitution;
 
     // Optional clamping/validation
-    if (Intelligence < 1 || Intelligence > 10) Intelligence = 5;
-    if (Wisdom < 1 || Wisdom > 10) Wisdom = 5;
-    if (Charisma < 1 || Charisma > 10) Charisma = 5;
-    if (Dexterity < 1 || Dexterity > 10) Dexterity = 5;
-    if (Constitution < 1 || Constitution > 10) Constitution = 5;
+    if (Intelligence < 1 || Intelligence > 10) Intelligence = 1;
+    if (Wisdom < 1 || Wisdom > 10) Wisdom = 1;
+    if (Charisma < 1 || Charisma > 10) Charisma = 1;
+    if (Dexterity < 1 || Dexterity > 10) Dexterity = 1;
+    if (Constitution < 1 || Constitution > 10) Constitution = 1;
 
     std::cout << "\nStats updated!\n";
 }

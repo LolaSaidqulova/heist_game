@@ -1,2 +1,8 @@
 # ninja log v6
 2354	2501	7671845490251454	projectHeistGame.exe	c74527b4322c7e8b
+3	560	1745483931105842825	CMakeFiles/projectHeistGame.dir/Player.cpp.o	bde808d05012b3e0
+2	562	1745483931105307748	CMakeFiles/projectHeistGame.dir/main.cpp.o	933c0a99b1e7cc58
+2	669	1745483931105662702	CMakeFiles/projectHeistGame.dir/Acts.cpp.o	6e6d1965f62359b4
+670	760	1745483931772990122	projectHeistGame	5626276c7605f6e6
+5	508	1745484110286943926	CMakeFiles/projectHeistGame.dir/Player.cpp.o	bde808d05012b3e0
+508	597	1745484110790606994	projectHeistGame	5626276c7605f6e6
